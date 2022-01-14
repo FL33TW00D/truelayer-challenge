@@ -1,0 +1,8 @@
+application:
+  port: 8000
+  host: 0.0.0.0
+  base_url: "http://0.0.0.0"
+pokemon_client:
+  base_url: "https://pokeapi.co/api/v2/pokemon-species/"
+funtranslation_client:
+  base_url: "https://api.funtranslations.com/translate/"
