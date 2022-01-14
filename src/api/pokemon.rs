@@ -42,7 +42,6 @@ pub async fn pokemon_information(
         .await
         .context("Failed to obtain pokemon information.")?;
 
-    //here we need to forward the call to their API
     Ok(HttpResponse::Ok().json(pokemon))
 }
 

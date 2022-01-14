@@ -27,6 +27,7 @@ Whilst inside the directory
 ### Testing functionality
 
 `curl http://localhost:8000/pokemon/mewtwo`
+
 `curl http://localhost:8000/pokemon/translated/mewtwo`
 
 If tests fail because of the following message:
